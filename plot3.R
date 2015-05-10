@@ -20,7 +20,7 @@ ndata$SubMeter2 <- as.character(ndata$Sub_metering_2)
 ndata$SubMeter3 <- as.character(ndata$Sub_metering_3)
 
 plot(ndata$PTime, ndata$SubMeter1, type="l",
-      xlab="Time", ylab="Energy sub metering", ylim=c(0,40))
+      xlab="", ylab="Energy sub metering", ylim=c(0,40))
 
 # annotate
 lines(ndata$PTime, ndata$SubMeter2, col="red")

@@ -14,7 +14,7 @@ ndata$PTime <- strptime(x, "%d/%m/%Y %H:%M:%S")
 
 # plot no. 2 - time series of Global Active Power
 plot(ndata$PTime, ndata$Global_active_power, type="l",
-     xlab="Time", ylab="Global Active Power (kilowatts)")
+     xlab="", ylab="Global Active Power (kilowatts)")
 
 # save plot as png
 dev.copy(png, file="plot2.png", width=480, height=480)
